@@ -1,4 +1,4 @@
-package com.example.order_management.domain.repository;
+package com.example.order_management.infrastructure.rdb.adapter;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
