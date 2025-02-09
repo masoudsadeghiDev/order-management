@@ -1,7 +1,3 @@
-Here’s an improved version of your README with better formatting, clearer explanations, and a more professional structure.  
-
----
-
 # **E-Commerce Order Management System**  
 
 ## **Project Overview**  
@@ -50,7 +46,3 @@ The system is built using modern Java technologies for reliability and scalabili
    ```  
 4. **Access the API:**  
    The API will be available at `http://localhost:8080/api`.  
-
----
-
-This version makes the README more structured, readable, and useful. Let me know if you want any modifications! 🚀
