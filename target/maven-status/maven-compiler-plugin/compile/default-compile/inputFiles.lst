@@ -1,0 +1,8 @@
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/OrderManagementApplication.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/OrderItem.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/Payment.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/Product.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/User.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/enums/OrderStatus.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/enums/PaymentStatus.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/enums/Role.java
