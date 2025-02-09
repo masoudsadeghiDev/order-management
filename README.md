@@ -32,17 +32,3 @@ The system is built using modern Java technologies for reliability and scalabili
 ✅ **Payment Integration** – Support for payment gateways like Stripe or PayPal.  
 ✅ **Scalability** – Follows **Hexagonal Architecture** for modular expansion.  
 
-## **Setup & Installation**  
-1. **Clone the Repository:**  
-   ```sh
-   git clone https://github.com/masoudsadeghiDev/E-Commerce-Order-Management-System.git
-   cd ecommerce-order-system
-   ```  
-2. **Configure the Database:**  
-   Update the `application.properties` file with your PostgreSQL credentials.  
-3. **Run the Application:**  
-   ```sh
-   mvn spring-boot:run  
-   ```  
-4. **Access the API:**  
-   The API will be available at `http://localhost:8080/api`.  
