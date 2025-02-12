@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.order_management.domain.entity.Payment;
 import com.example.order_management.domain.enums.PaymentStatus;
-import com.example.order_management.infrastructure.rdb.adapter.PaymentRepository;
+import com.example.order_management.infrastructure.rdb.repository.PaymentRepository;
 
 import lombok.RequiredArgsConstructor;
 

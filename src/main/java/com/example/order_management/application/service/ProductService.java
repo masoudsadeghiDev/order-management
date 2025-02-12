@@ -5,7 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.example.order_management.domain.entity.Product;
-import com.example.order_management.infrastructure.rdb.adapter.ProductRepository;
+import com.example.order_management.infrastructure.rdb.repository.ProductRepository;
 
 import lombok.RequiredArgsConstructor;
 

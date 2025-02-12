@@ -1,4 +1,11 @@
 /Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/OrderManagementApplication.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/application/port/input/UserLoginUseCase.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/application/port/output/UserOutput.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/application/service/OrderService.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/application/service/PaymentService.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/application/service/ProductService.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/application/service/UserService.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/Order.java
 /Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/OrderItem.java
 /Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/Payment.java
 /Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/entity/Product.java
@@ -6,3 +13,14 @@
 /Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/enums/OrderStatus.java
 /Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/enums/PaymentStatus.java
 /Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/domain/enums/Role.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rdb/adapter/OrderItemRepository.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rdb/adapter/OrderRepository.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rdb/adapter/PaymentRepository.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rdb/adapter/ProductRepository.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rdb/adapter/UserRepository.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rest/adapter/UserController.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rest/dto/request/LoginRequest.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rest/dto/request/SignupRequest.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rest/dto/response/UserResponse.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rest/validation/RoleValidator.java
+/Users/masoud/Documents/Project/Java/order-management/src/main/java/com/example/order_management/infrastructure/rest/validation/ValidRole.java

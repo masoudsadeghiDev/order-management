@@ -6,7 +6,7 @@ import org.springframework.stereotype.Service;
 
 import com.example.order_management.domain.entity.Order;
 import com.example.order_management.domain.enums.OrderStatus;
-import com.example.order_management.infrastructure.rdb.adapter.OrderRepository;
+import com.example.order_management.infrastructure.rdb.repository.OrderRepository;
 
 import lombok.RequiredArgsConstructor;
 
