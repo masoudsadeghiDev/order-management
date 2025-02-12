@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.example.order_management.OrderManagementApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.552 s -- in com.example.order_management.OrderManagementApplicationTests
