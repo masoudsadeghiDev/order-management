@@ -9,7 +9,6 @@ import com.example.order_management.infrastructure.rest.dto.response.UserRespons
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
-import org.springframework.security.config.annotation.web.oauth2.login.OAuth2LoginSecurityMarker;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
@@ -21,7 +20,7 @@ public class UserController {
 
     @PostMapping("/login")
     public ResponseEntity<UserResponse> login(@Valid @RequestBody LoginRequest loginRequest) {
-        User user = userLoginUseCase.login(loginRequest.getEmail(), loginRequest.getPassword());
+        User user = userLoginUseCase.login(loginRequest.email(), loginRequest.password());
 
         return ResponseEntity.ok(
                 UserResponse
@@ -34,8 +33,8 @@ public class UserController {
 
     @PostMapping("/signup")
     public ResponseEntity<UserResponse> signup(@Valid @RequestBody SignupRequest signupRequest) {
-        User user = userLoginUseCase.signup(signupRequest.getEmail(), signupRequest.getPassword(),
-                signupRequest.getRole());
+        User user = userLoginUseCase.signup(signupRequest.email(), signupRequest.password(),
+                signupRequest.role());
 
         return ResponseEntity.ok(
                 UserResponse

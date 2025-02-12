@@ -1,11 +1,12 @@
 package com.example.order_management.infrastructure.rest.dto.request;
 
-import lombok.Getter;
-import lombok.Setter;
+import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 
-@Getter
-@Setter
-public class LoginRequest {
-    private String email;
-    private String password;;
-}
+public record LoginRequest(
+        @NotBlank(message = "Email is required") 
+        @Email(message = "Invalid email format") 
+        String email,
+
+        @NotBlank(message = "Password is required") 
+        String password) {}
